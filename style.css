@@ -1,0 +1,64 @@
+*{
+    background-color: azure;
+}
+
+nav h2{
+    color: white;
+    background-color: black;
+    margin-left: 5px;
+}
+
+.navbar{
+    background-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+nav ul, li, a{
+    color: white;
+    display: inline;
+    background-color: black;
+    justify-items: space-between;
+    margin-right: 5px;
+}
+
+#About{
+    border-color: lightcoral;
+    border-width: 5px;
+    border-style: solid;
+    margin-top: 1px;
+}
+
+.objective h3{
+    font-weight: bolder;
+    padding-left: 5px; 
+}
+
+.objective p{
+    padding-left: 40px;
+    padding-right: 40px;
+ }
+
+#Education{
+    border-color: lightcoral;
+    border-width: 5px;
+    border-style: solid;
+    margin-top: 1px;
+    
+ }
+
+#Education h3{
+    font-weight: bolder;
+    padding-left: 5px;
+}
+
+#Education p{
+    color: black;
+}
