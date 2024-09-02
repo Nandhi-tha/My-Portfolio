@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href = "style.css">
-    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
 </head>
 <body>
 
@@ -16,10 +17,10 @@
             <ul>
                 <li><a href ="#About">About</a></li>
                 <li><a href ="#Education">Education</a></li>
-                <li><a href =" ">Skills</a></li>
+                <li><a href ="#Skills">Skills</a></li>
                 <li><a href =" ">Projects</a></li>
                 <li><a href =" ">Certification</a></li>
-                <li><a href =" ">Contact</a></li>
+                <li><a href ="#Contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -61,5 +62,54 @@
         </ul>
     </section>
 
+    <!--Skills section-->
+    <section id = "Skills">
+        <h3><u>Skills</u></h3>
+        <h4>Languages:</h4>
+        <ol>
+            <p>Python | SQL | HTML | CSS</p>
+            <li>SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Basics of C</li>
+        </ol>
+    </section>
+
+    <!--Contact section-->
+    <section id = "Contact">
+        <h3><u>Contact Me</u></h3>
+
+        <form>
+            <div class="form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="form">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+    </section>
+
+    
+    
 </body>
+<!--Footer section-->
+<footer id = "footer">
+    <!-- Social media icons -->
+    <div class = "icons">
+        <a href="https://www.linkedin.com/in/nandhitha24" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/Nandhi-tha" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.instagram.com/n.a.n.d.h.i_" target="_blank"><i class="fa fa-instagram"></i></a>
+    </div>
+</footer>
 </html>
