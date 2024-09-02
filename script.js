@@ -13,3 +13,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+function viewResume() {
+    window.location.href = 'documents/Nandhitha_Resume.pdf';
+}
